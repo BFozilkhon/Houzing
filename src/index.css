@@ -1,17 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Martel Sans", sans-serif;
+  font-family: 'Martel Sans', sans-serif;
 }
 
 :root {
-  --fontFamily: "Cerebri Sans";
+  --fontFamily: 'Cerebri Sans';
   --colorBlue: #0061df;
   --colorBlack: #0d263b;
   --colorText: #696969;
   --colorWhite: #ffffff;
   --background: #f5faff;
+}
+
+@font-face {
+  font-family: 'Cerebri Sans';
+  src: url('./utils/cerebrisans/Cerebri\ Sans\ Book.ttf');
 }
