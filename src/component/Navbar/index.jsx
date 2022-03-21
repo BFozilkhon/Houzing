@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { data } from "../../utils/navbar";
 import { Wrap } from "./style";
 
