@@ -1,8 +1,9 @@
-import React from "react";
-import Discover from "./Discover";
-import BecomeAgent from "./BecomeAgent";
-import Opener from "./Opener";
-import ChooseUs from "./ChooseUs";
+import React from 'react';
+import Discover from './Discover';
+import BecomeAgent from './BecomeAgent';
+import Opener from './Opener';
+import ChooseUs from './ChooseUs';
+import Footer from '../Generic/Footer';
 export const Home = () => {
   return (
     <div>
@@ -10,6 +11,7 @@ export const Home = () => {
       <Discover />
       <BecomeAgent />
       <ChooseUs />
+      <Footer />
     </div>
   );
 };
