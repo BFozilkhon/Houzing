@@ -1,5 +1,6 @@
 import Generic from "../component/Generic";
 import Home from "../component/Home";
+import SellComponent from "../component/Sell";
 
 export const data = [
   {
@@ -19,7 +20,7 @@ export const data = [
     id: 3,
     title: "Sell",
     pathname: "/sell",
-    Component: Generic,
+    Component: SellComponent,
   },
   {
     id: 4,
