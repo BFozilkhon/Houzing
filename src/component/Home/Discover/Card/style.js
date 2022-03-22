@@ -1,13 +1,13 @@
 import styled from "styled-components";
-import { ReactComponent as arrow } from "../../../assets/icons/arrow-top-bottom.svg";
-import { ReactComponent as bed } from "../../../assets/icons/bed.svg";
-import { ReactComponent as shower } from "../../../assets/icons/shower.svg";
-import { ReactComponent as car } from "../../../assets/icons/car.svg";
-import { ReactComponent as triangle } from "../../../assets/icons/triangle.svg";
-import { ReactComponent as puls } from "../../../assets/icons/puls.svg";
-import { ReactComponent as heart } from "../../../assets/icons/heart.svg";
-import { ReactComponent as play } from "../../../assets/icons/play-button.svg";
-import { ReactComponent as kamera } from "../../../assets/icons/kamera.svg";
+import { ReactComponent as arrow } from "../../../../assets/icons/arrow-top-bottom.svg";
+import { ReactComponent as bed } from "../../../../assets/icons/bed.svg";
+import { ReactComponent as shower } from "../../../../assets/icons/shower.svg";
+import { ReactComponent as car } from "../../../../assets/icons/car.svg";
+import { ReactComponent as triangle } from "../../../../assets/icons/triangle.svg";
+import { ReactComponent as puls } from "../../../../assets/icons/puls.svg";
+import { ReactComponent as heart } from "../../../../assets/icons/heart.svg";
+import { ReactComponent as play } from "../../../../assets/icons/play-button.svg";
+import { ReactComponent as kamera } from "../../../../assets/icons/kamera.svg";
 
 export const Cards = styled.div`
   width: 360px;
