@@ -15,6 +15,7 @@ export const Cards = styled.div`
   margin: 20px;
   :hover {
     box-shadow: 0px 20px 50px rgba(13, 38, 59, 0.2);
+    transform: scale(1.05);
   }
   :hover .circle {
     background: #0061df;
