@@ -1,7 +1,7 @@
-import React from 'react';
-import Discover from '../Discover';
-import BecomeAgent from './BecomeAgent';
-import Opener from './Opener';
+import React from "react";
+import Discover from "../Discover";
+import BecomeAgent from "./BecomeAgent";
+import Opener from "./Opener";
 
 export const Home = () => {
   return (
