@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { ReactComponent as trusted } from "../../../assets/icons/trusted.svg";
-import { ReactComponent as house } from "../../../assets/icons/house.svg";
-import { ReactComponent as calculator } from "../../../assets/icons/calculator.svg";
-import { ReactComponent as maps } from "../../../assets/icons/maps.svg";
+import { ReactComponent as trusted } from "../../../../assets/icons/trusted.svg";
+import { ReactComponent as house } from "../../../../assets/icons/house.svg";
+import { ReactComponent as calculator } from "../../../../assets/icons/calculator.svg";
+import { ReactComponent as maps } from "../../../../assets/icons/maps.svg";
 
 export const Cards = styled.div`
   width: 360px;
