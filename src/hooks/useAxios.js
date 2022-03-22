@@ -16,19 +16,25 @@ export const useAxios = () => {
         ...body,
       },
       headers: {
-        Authorization: `${
-          includeToken && `Bearer ${localStorage.getItem("token")}`
-        }`,
+        Authorization: `${includeToken && localStorage.getItem("token")}`,
         "Content-Type": "application/json",
         ...headers,
       },
     })
-      .then((res) => {
-        return res;
-      })
-      .catch((error) => {
-        return error;
-      });
+      .then((res) => res)
+      .catch((err) => err);
   };
   return { request };
 };
+export default useAxios;
+
+// 1. UseAxios digan arrow funtion yurgazdik
+// 2. request degan arrow yurgazdik va asynchihron qilib oldik
+// 3. uni return axios ga
+// 4. requst argument berdik default qiymatlar ham berib yuboriladi url , method, body, headers, includeToken
+// 5. argument berganlarni chaqirib olamiz
+// 6. datada body spread qilinadi, headers da Authorization ochiladi
+// 7. includeToken qilinadi, localStroragedan malumot olib kelinadi
+// 7. then catch
+// 8. request return qilib qoyiladi
+// "Content-Type": "application/json",
