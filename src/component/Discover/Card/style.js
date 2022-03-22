@@ -15,6 +15,7 @@ export const Cards = styled.div`
   transition: all 0.2s;
   :hover {
     box-shadow: 0px 20px 50px rgba(13, 38, 59, 0.2);
+    transform: scale(1.05);
   }
   :hover .full {
     display: flex;
