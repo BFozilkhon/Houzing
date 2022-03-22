@@ -1,4 +1,3 @@
-import { Tabs } from "antd";
 import React from "react";
 import {
   Choose,
